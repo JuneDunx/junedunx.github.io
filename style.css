@@ -18,6 +18,11 @@
   font-style: normal;
 }
 
+#text {
+    color: #ffff;
+    text-align: center;
+    position: rel;
+}
 
 /*-- NAVBAR --*/
 #item1 {
@@ -50,7 +55,9 @@
     top: 100px;
     left: 25%;
     width: 50%;
-    height: 80%;
+    height: auto;
     align-items: center;
     justify-content: center;
+    display: block;
+    margin: 0 auto;
 }
